@@ -18,8 +18,12 @@
           (python3.withPackages(ps: with ps; [
             ipython
             jupyter
+            matplotlib
             numpy
             pandas
+            plotly
+            seaborn
+            scikit-learn
           ]))
         ];
         shellHook = "jupyter notebook";
