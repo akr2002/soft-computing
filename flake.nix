@@ -20,6 +20,7 @@
             jupyter
             numpy
             pandas
+            pip
           ]))
         ];
         shellHook = "jupyter notebook";
