@@ -25,6 +25,8 @@
             plotly
             seaborn
             scikit-learn
+            simpful
+            tensorflow
           ]))
         ];
         shellHook = "jupyter notebook";
